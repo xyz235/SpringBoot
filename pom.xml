@@ -18,6 +18,7 @@
 
     <modules>
         <module>redis</module>
+        <module>unified-exception-handling</module>
     </modules>
 
     <properties>
