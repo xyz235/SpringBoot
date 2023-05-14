@@ -19,6 +19,7 @@
     <modules>
         <module>redis</module>
         <module>unified-exception-handling</module>
+        <module>async</module>
     </modules>
 
     <properties>
