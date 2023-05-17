@@ -22,6 +22,7 @@
         <module>async</module>
         <module>mail</module>
         <module>pdf</module>
+        <module>timing</module>
     </modules>
 
     <properties>

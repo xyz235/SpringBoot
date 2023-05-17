@@ -14,6 +14,3 @@ spring:
             net:
               ssl:
                 SSLSocketFactory: javax.net.ssl.SSLSocketFactory
-
-server:
-  port: 8081
