@@ -21,6 +21,7 @@
         <module>unified-exception-handling</module>
         <module>async</module>
         <module>mail</module>
+        <module>pdf</module>
     </modules>
 
     <properties>
