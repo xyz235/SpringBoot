@@ -1,0 +1,6 @@
+oss:
+  endpoint: oss-cn-shanghai.aliyuncs.com
+  accessKeyId: xxx
+  accessKeySecret: xxx
+  bucketName: zhangdadashuai
+  dir: dev
