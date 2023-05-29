@@ -2,9 +2,11 @@ package top.zhangdashuai.oss.controller;
 
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+import top.zhangdashuai.oss.pojo.req.FileBatchDelete;
 import top.zhangdashuai.oss.pojo.rsp.FileUploadRsp;
 import top.zhangdashuai.oss.utils.OssUtil;
 
@@ -29,5 +31,10 @@ public class FileController {
     @PostMapping("/delete")
     public void delete(String fileName) {
         ossUtil.delete(fileName);
+    }
+
+    @PostMapping("/batchDelete")
+    public void batchDelete(@RequestBody FileBatchDelete fileBatchDelete) {
+        ossUtil.batchDelete(fileBatchDelete.getKeys());
     }
 }
