@@ -25,6 +25,7 @@
         <module>timing</module>
         <module>oss</module>
         <module>project-start-automatic-execution-method</module>
+        <module>cross-domain</module>
     </modules>
 
     <properties>
