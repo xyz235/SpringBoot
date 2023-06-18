@@ -27,6 +27,7 @@
         <module>project-start-automatic-execution-method</module>
         <module>cross-domain</module>
         <module>websocket</module>
+        <module>spring-security</module>
     </modules>
 
     <properties>
