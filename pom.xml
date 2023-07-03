@@ -28,6 +28,7 @@
         <module>cross-domain</module>
         <module>websocket</module>
         <module>spring-security</module>
+        <module>mybatis-plus</module>
     </modules>
 
     <properties>
