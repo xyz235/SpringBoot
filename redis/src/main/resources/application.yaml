@@ -4,3 +4,6 @@ spring:
       port: 6379
       host: xxx.xxx.xxx.xxx
       password: xxx
+      lettuce:
+        pool:
+          max-wait: 100
