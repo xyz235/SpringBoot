@@ -29,6 +29,7 @@
         <module>websocket</module>
         <module>spring-security</module>
         <module>mybatis-plus</module>
+        <module>caffeine</module>
     </modules>
 
     <properties>
