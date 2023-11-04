@@ -30,6 +30,7 @@
         <module>mybatis-plus</module>
         <module>caffeine</module>
         <module>pdf/iText</module>
+        <module>pdf/PDFBox</module>
     </modules>
 
     <properties>
