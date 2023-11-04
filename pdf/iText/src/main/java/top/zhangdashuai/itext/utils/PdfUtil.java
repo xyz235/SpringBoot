@@ -1,4 +1,4 @@
-package top.zhangdashuai.pdf.utils;
+package top.zhangdashuai.itext.utils;
 
 import com.itextpdf.html2pdf.ConverterProperties;
 import com.itextpdf.html2pdf.HtmlConverter;

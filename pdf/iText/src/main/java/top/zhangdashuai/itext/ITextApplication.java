@@ -1,4 +1,4 @@
-package top.zhangdashuai.pdf;
+package top.zhangdashuai.itext;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author zhangdashuai
  */
 @SpringBootApplication
-public class PdfApplication {
+public class ITextApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PdfApplication.class, args);
+        SpringApplication.run(ITextApplication.class, args);
     }
 
 }

@@ -21,7 +21,6 @@
         <module>unified-exception-handling</module>
         <module>async</module>
         <module>mail</module>
-        <module>pdf</module>
         <module>timing</module>
         <module>oss</module>
         <module>project-start-automatic-execution-method</module>
@@ -30,6 +29,7 @@
         <module>spring-security</module>
         <module>mybatis-plus</module>
         <module>caffeine</module>
+        <module>pdf/iText</module>
     </modules>
 
     <properties>

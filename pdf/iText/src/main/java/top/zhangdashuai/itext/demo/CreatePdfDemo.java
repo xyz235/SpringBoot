@@ -1,4 +1,4 @@
-package top.zhangdashuai.pdf.demo;
+package top.zhangdashuai.itext.demo;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.FontFactory;
