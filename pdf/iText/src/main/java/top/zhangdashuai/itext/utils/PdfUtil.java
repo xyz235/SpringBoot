@@ -121,6 +121,7 @@ public class PdfUtil {
         }
         try {
             stamper.close();
+            reader.close();
         } catch (DocumentException | IOException e) {
             throw new RuntimeException(e);
         }
