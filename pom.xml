@@ -32,6 +32,7 @@
         <module>pdf/iText</module>
         <module>pdf/PDFBox</module>
         <module>design-model/strategy-model</module>
+        <module>compare</module>
     </modules>
 
     <properties>
