@@ -33,6 +33,7 @@
         <module>pdf/PDFBox</module>
         <module>design-model/strategy-model</module>
         <module>compare</module>
+        <module>mq/active-mq</module>
     </modules>
 
     <properties>
